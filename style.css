@@ -1,0 +1,96 @@
+.ana {
+    color: rgb(97, 3, 248);
+}
+
+.insta {
+    color: rgb(132, 0, 255);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 30px;
+  }
+  
+  a {
+    position: relative;
+    color: rgb(255, 0, 64);
+    text-decoration: none;  
+  }
+  
+  a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(94, 2, 168);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  p {
+    margin: 30px;
+    display: inline-block
+    
+  }
+
+  h1 {
+    font-size: larger;
+    text-align: center;
+  }
+
+.texto {
+    float: left;
+}
+
+.texto1 {
+    float: left;
+}
+
+.texto2 {
+    float: left;
+}
+
+.cor {
+    color: blueviolet;
+}
+
+.texto3 {
+  float: left;
+}
+
+.texto3 {
+  float: left;
+}
+
+.texto4 {
+  float: left;
+}
+
+.cor1 {
+  color: springgreen;
+}
+
+.texto5 {
+  float: left;
+}
+
+.texto6 {
+  float: left;
+}
+
+.texto7 {
+  float: left;
+}
